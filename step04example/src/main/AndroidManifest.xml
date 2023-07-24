@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <!-- 인터넷을 사용하겠다는 허가 얻기 -->
     <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello"
-        android:usesCleartextTraffic="true"> <!-- https 가 아닌 http 요청을 가능하도록 설정 -->
+        android:usesCleartextTraffic="true"> <!-- https 가 아닌 http 요청을 가능하도록 설정 -->>
         <activity
             android:name=".MainActivity"
             android:exported="true">

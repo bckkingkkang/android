@@ -6,28 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/editText"
+        android:background="#f98802"
         android:focusable="false"
-        android:background="#00ff00"/>
-    <LinearLayout
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <EditText
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/inputUrl"
-            android:text="https://acornacademy.co.kr/index.jsp"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="요청"
-            android:id="@+id/requestBtn"/>
-    </LinearLayout>
+        android:hint="메세지 입력..."
+        android:id="@+id/inputMsg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전송"
+        android:id="@+id/sendBtn"/>
 
 </LinearLayout>

@@ -17,16 +17,31 @@
         android:textSize="30sp"
         android:textColor="#ffffff"/>
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="메세지 입력..."
-        android:id="@+id/inputMsg"/>
+        android:orientation="horizontal">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="전송"
-        android:id="@+id/sendBtn"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="메세지 입력..."
+            android:id="@+id/inputMsg"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전송"
+            android:id="@+id/sendBtn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전송2"
+            android:id="@+id/sendBtn2"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,32 +15,36 @@
         android:focusable="false"
         android:textSize="30sp"
         android:textColor="#ffffff"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:hint="메세지 입력..."
             android:id="@+id/inputMsg"/>
-
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="전송"
             android:id="@+id/sendBtn"/>
-
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="전송2"
             android:id="@+id/sendBtn2"/>
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전송3"
+            android:id="@+id/sendBtn3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listBtn"
+            android:text="글 목록 보기"/>
     </LinearLayout>
-
-
 
 </LinearLayout>

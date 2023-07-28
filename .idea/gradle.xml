@@ -10,12 +10,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/HelloKotlin" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/hello2" />
+            <option value="$PROJECT_DIR$/hellokotiln" />
+            <option value="$PROJECT_DIR$/hellokotiln/lib" />
+            <option value="$PROJECT_DIR$/hellokotlin1" />
             <option value="$PROJECT_DIR$/step01activity" />
             <option value="$PROJECT_DIR$/step04example" />
             <option value="$PROJECT_DIR$/step04gallery" />
             <option value="$PROJECT_DIR$/step04httprequest" />
+            <option value="$PROJECT_DIR$/test" />
           </set>
         </option>
       </GradleProjectSettings>
